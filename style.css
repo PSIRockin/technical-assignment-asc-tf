@@ -1,0 +1,156 @@
+/* *{
+    box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+}
+
+#NavBar {
+    font-family: 'Eczar', serif;
+    background-color: #F6C390;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  margin: 35px auto 0;
+  width: 300px;
+  height: 534px;
+  background-color: #533557;
+  overflow: hidden;
+} */
+
+body{
+    background-image: url("https://png2.kisspng.com/sh/86662402d5ee97473ae7b0e651f8bb61/L0KzQYm3VMExN5Vrj5H0aYP2gLBuTf1mb5IyhdN3LUiwfbbugb1uaZ8yS598cILshLa0lvllbZCyf9N2ZT3wdbjojfFvNWZme9YCNnG0c7SCWPQ3Nmg6SKg9MUOzQYa5U8QyPGc9Uao8OEGxgLBu/kisspng-mega-man-8-mega-man-3-sprite-video-game-megaman-5acd76a1cc98d6.7506413015234146898381.png");
+    background-size: 50%;
+    background-repeat: auto;
+    background-color: wheat;
+  }
+  
+#NavBar {
+    position: fixed;
+    width: auto;
+}
+
+#NavBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#NavBar li {
+    list-style-type: none;
+    float: left;
+    font-family: 'Eczar', serif;
+}
+
+li a {
+    list-style-type: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+}
+
+#Intro{
+    width: 100%;
+}
+
+#intro-image{
+    border-radius: 35%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 450px;
+}
+
+h1{
+    font-size: 50px
+}
+
+h2{
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+p{
+    font-size: 24px;
+}
+
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info1{
+    color: black;
+    display: inline;
+    vertical-align: top;
+    margin: 50px;
+    background-color: rgb(255, 97, 97);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 15px 50px;
+    background: #02efee;
+    padding: 20px; 
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.info2{
+    color: whitesmoke;
+    display: inline;
+    vertical-align: top;
+    margin: 50px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 50px 15px;
+    background: #0001cb;
+    padding: 20px; 
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+footer{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.left_image{
+    border-radius: 50%;
+    float: left;
+}
+
+.right_image{
+    border-radius: 50%;
+    float: right;
+}
